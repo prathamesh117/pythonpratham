@@ -1,0 +1,20 @@
+def string(str):
+  if len(str) < 2:
+    return ''
+
+  return str[0:2] + str[-2:]
+
+print(string('Prathamesh'))
+print(string('pr'))
+print(string('p'))
+
+
+
+OUTPUT:
+
+ace@ace-ThinkCentre-M70e:~$ cd Desktop
+ace@ace-ThinkCentre-M70e:~/Desktop$ python 2a.py
+Prsh
+prpr
+
+ace@ace-ThinkCentre-M70e:~/Desktop$ 
