@@ -1,0 +1,27 @@
+print("enter elements of tuple")
+
+l = raw_input().split()
+t=tuple(l)
+print(t)
+
+x =raw_input('Enter a word to be searched in tuple: ')
+
+if x in t :
+	print('Element {} found '.format(x))
+else:
+	print("Elment {} not found".format(x))
+
+OUTPUT:
+ace@ace-ThinkCentre-M70e:~/Desktop$ python 3d.py
+enter elements of tuple
+a e i ou
+('a', 'e', 'i', 'ou')
+Enter a word to be searched in tuple: i
+Element i found 
+ace@ace-ThinkCentre-M70e:~/Desktop$ python 3d.py
+enter elements of tuple
+a e i o u
+('a', 'e', 'i', 'o', 'u')
+Enter a word to be searched in tuple: z
+Elment z not found
+ace@ace-ThinkCentre-M70e:~/Desktop$ 
