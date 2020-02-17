@@ -1,0 +1,25 @@
+init= {'k1':10,'k2':20,'k3':30,'k4':10,'k5':40,'k6':50}
+
+result={}
+print('original dictonary is :\n',init)
+for key,value in init.items():
+	if value not in result.values():
+		result[key]=value
+print('\nAfter Removing duplicate values')
+print(result)
+
+
+OUTPUT:
+
+ace@ace-ThinkCentre-M70e:~/Desktop$ python 3b.py
+Enter Elements of first list:
+
+hie bye why tie lie
+Enter Elements of second list:
+
+four more core tore
+('List 1 is:\n', ['hie', 'bye', 'why', 'tie', 'lie'])
+('List 2 is:\n', ['four', 'more', 'core', 'tore'])
+ace@ace-ThinkCentre-M70e:~/Desktop$ 
+
+
