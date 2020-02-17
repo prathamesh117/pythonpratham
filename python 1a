@@ -4,3 +4,9 @@ cost=cost+(n+0.75)*59
 
 
 print(cost)
+
+OUTPUT:
+ace@ace-ThinkCentre-M70e:~/Desktop$ python 1a.py
+1520.25
+ace@ace-ThinkCentre-M70e:~/Desktop$ 
+
