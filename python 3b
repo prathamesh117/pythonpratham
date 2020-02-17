@@ -11,5 +11,20 @@ for i in list1:
 	for j in list2:
 		if i==j:
 			print("True , {} is common".format(i))
+			
+OUTPUT:
+ace@ace-ThinkCentre-M70e:~/Desktop$ python 3b.py
+Enter Elements of first list:
+
+hie bye why tie lie
+Enter Elements of second list:
+
+four more core tore
+('List 1 is:\n', ['hie', 'bye', 'why', 'tie', 'lie'])
+('List 2 is:\n', ['four', 'more', 'core', 'tore'])
+ace@ace-ThinkCentre-M70e:~/Desktop$ 
+
+
+
 
  
